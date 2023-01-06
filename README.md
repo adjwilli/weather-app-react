@@ -35,7 +35,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Other React Scripts
+## Other React Boilerplate Scripts
 
 ### `npm run eject`
 
