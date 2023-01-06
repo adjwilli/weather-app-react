@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# What is this?
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I wanted to learn more about React, so I decided to make a weather app, similar to the built-in iOS Weather app. It supports adding multiple cities from a search field or using the current location based on the [`navigator.geolocation`](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiX_cXmj7T8AhXGkmoFHZu7A7gQFnoECB4QAQ&url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FAPI%2FNavigator%2Fgeolocation&usg=AOvVaw3J1gfFvRKpnrPqoPo6GV4W) API.
+
+It uses the [Open Meteo API](https://open-meteo.com) for weather data.
+
+Backgrounds are animated depending on the weather of the location using a heavily modified fork of [ParticlesJS](https://vincentgarreau.com/particles.js/).
+
+A user can swipe a location div left or right to remove it from the list. 
 
 ## Available Scripts
 
@@ -28,6 +34,8 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Other React Scripts
 
 ### `npm run eject`
 
