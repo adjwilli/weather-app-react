@@ -1,0 +1,36 @@
+.location-selector {
+	padding: 1em;
+	background: linear-gradient(0deg, rgb(98 112 138) 0%, rgba(103,118,145,1) 100%);
+	box-shadow: 0 3px 8px rgb(0 0 0 / 20%);
+}
+
+.location-selector-results {
+	position: absolute;
+	z-index: 100;
+	padding: 1em;
+	background-color: white;
+	border: 1px solid rgba(0,0,0,0.1);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+	border-radius: 1em;
+	color: rgb(20,20,20);
+}
+
+.location-selector-result {
+	cursor: pointer;
+}
+
+.location-selector-result:hover {
+	color: blue;
+}
+
+p.intro {
+	margin: 0.5em;
+	text-align: center;
+	margin-top: 35%;
+}
+
+@media screen and (max-width:768px) {
+	.location-selector {
+		margin: 0.5em 0.5em;
+	}
+}

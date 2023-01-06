@@ -1,0 +1,164 @@
+.row {
+	width: 100%;
+	overflow: hidden;
+	margin: 0;
+	height: 228px;
+}
+
+.weather {
+	height: 226px;
+	padding: 0;
+	margin: 0;
+	border: 1px solid rgba(128,128,128,0.24);
+	background-color: rgb(233 233 233 / 80%);
+	transition: background-color 0.6s ease, color 0.3s ease;
+	text-shadow: 0 1px 3px rgba(0 0 0 / 16%);
+	box-shadow: 0 3px 13px rgb(0 0 0 / 33%);
+	position: relative;
+	z-index: 1;
+	border-radius: 2px;
+}
+
+.weather .precipitation {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: 3;
+}
+
+.weather .atmosphere {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: 2;
+}
+
+.weather .info {
+	margin: 1em;
+	border-radius: 3px;
+	z-index: 4;
+	position: relative;
+}
+
+.weather canvas {
+	position: relative;
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+.weather.daylight.clear {
+	background-color: rgb(148 216 255 / 98%);
+	color: rgb(255 255 255 / 90%);
+	text-shadow: 0 1px 3px rgba(0 0 0 / 16%);
+	transition: background-color 0.6s ease, color 0.3s ease;
+}
+
+.weather.daylight.rain {
+	background-color: rgb(148 174 188 / 95%);
+	color: rgb(255 255 255 / 95%);
+	text-shadow: 0 1px 3px rgba(0 0 0 / 8%);
+	transition: background-color 0.6s ease, color 0.3s ease;
+}
+
+.weather.daylight.drizzle {
+	background-color: rgb(195 210 222);
+	color: rgb(255 255 255 / 95%);
+	text-shadow: 0 1px 3px rgba(0 0 0 / 20%);
+	transition: background-color 0.6s ease, color 0.3s ease;
+}
+
+.weather.daylight.cloudy {
+	background-color: rgb(187 199 207 / 95%);
+	color: rgb(255 255 255 / 95%);
+	text-shadow: 0 1px 3px rgba(0 0 0 / 20%);
+	transition: background-color 0.6s ease, color 0.3s ease;
+}
+
+.weather.daylight.partly-cloudy {
+	background-color: rgb(172 205 228 / 95%);
+	color: rgb(255 255 255 / 95%);
+	text-shadow: 0 1px 3px rgba(0 0 0 / 8%);
+	transition: background-color 0.6s ease, color 0.3s ease;
+}
+
+.weather.daylight.foggy {
+	background-color: rgb(172 205 228 / 95%);
+	color: rgb(255 255 255 / 95%);
+	text-shadow: 0 1px 3px rgba(0 0 0 / 20%);
+	transition: background-color 0.6s ease, color 0.3s ease;
+}
+
+.weather.daylight.snow {
+	background-color: rgb(172 205 228 / 95%);
+	color: rgb(255 255 255 / 95%);
+	text-shadow: 0 1px 3px rgba(0 0 0 / 20%);
+	transition: background-color 0.6s ease, color 0.3s ease;
+}
+
+.weather.daylight.storm {
+	background-color: rgb(172 205 228 / 95%);
+	color: rgb(255 255 255 / 95%);
+	text-shadow: 0 1px 3px rgba(0 0 0 / 20%);
+	transition: background-color 0.6s ease, color 0.3s ease;
+}
+
+.weather.nighttime.clear {
+	background-color: rgb(27 44 55 / 85%);
+	color: rgba(255,255,255,0.8);
+	text-shadow: 0 1px 3px rgba(0 0 0 / 8%);
+	transition: background-color 0.6s ease, color 0.3s ease;
+}
+
+.weather.nighttime.rain {
+	background-color: rgb(27 44 55 / 85%);
+	color: rgba(255,255,255,0.8);
+	text-shadow: 0 1px 3px rgba(0 0 0 / 8%);
+}
+
+.weather.nighttime.drizzle {
+	background-color: rgb(27 44 55 / 85%);
+	color: rgba(255,255,255,0.8);
+	text-shadow: 0 1px 3px rgba(0 0 0 / 20%);
+}
+
+.weather.nighttime.cloudy {
+	background-color: rgb(57 61 64 / 95%);
+	color: rgb(255 255 255 / 95%);
+	text-shadow: 0 1px 3px rgba(0 0 0 / 20%);
+}
+
+.weather.nighttime.partly-cloudy {
+	background-color: rgb(57 61 64 / 95%);
+	color: rgb(255 255 255 / 95%);
+	text-shadow: 0 1px 3px rgba(0 0 0 / 20%);
+}
+
+.weather.nighttime.foggy {
+	background-color: rgb(27 44 55 / 85%);
+	color: rgba(255,255,255,0.8);
+	text-shadow: 0 1px 3px rgba(0 0 0 / 20%);
+}
+
+.weather.nighttime.snow {
+	background-color: rgb(27 44 55 / 85%);
+	color: rgba(255,255,255,0.8);
+	text-shadow: 0 1px 3px rgba(0 0 0 / 20%);
+}
+
+.weather.nighttime.storm {
+	background-color: rgb(27 44 55 / 85%);
+	color: rgba(255,255,255,0.8);
+	text-shadow: 0 1px 3px rgba(0 0 0 / 20%);
+}
+
+.refresh {
+	float: right;
+}
+
+@media screen and (max-width:768px) {
+	.row {
+	}
+
+	.weather {
+	}
+}
