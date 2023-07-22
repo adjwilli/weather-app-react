@@ -8,5 +8,4 @@ Backgrounds are animated depending on the weather of the location using a heavil
 
 To run the project locally, start by running `npm install` then `npm start` to run the app in the development mode. This will start at web server available at [http://localhost:3000](http://localhost:3000).
 
-https://github.com/adjwilli/weather-app-react/assets/260890/aac7edf3-1dbf-4660-a585-ac494a74fd57
-[![Demo Video]([https://i.stack.imgur.com/Vp2cE.png](https://github.com/adjwilli/weather-app-react/assets/260890/aac7edf3-1dbf-4660-a585-ac494a74fd57)https://github.com/adjwilli/weather-app-react/assets/260890/aac7edf3-1dbf-4660-a585-ac494a74fd57)]([https://youtu.be/vt5fpE0bzSY](https://github.com/adjwilli/weather-app-react/assets/260890/aac7edf3-1dbf-4660-a585-ac494a74fd57)https://github.com/adjwilli/weather-app-react/assets/260890/aac7edf3-1dbf-4660-a585-ac494a74fd57)
+<video src='https://github.com/adjwilli/weather-app-react/assets/260890/aac7edf3-1dbf-4660-a585-ac494a74fd57' width=180/>
